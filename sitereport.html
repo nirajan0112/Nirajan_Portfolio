@@ -1,0 +1,305 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Report | Nirajan Mandal</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">NIRAJAN</a>
+        </div>
+
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="menu-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z"></path>
+            </svg>
+        </label>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="sitereport.html" class="active">Site Report</a></li>
+                <li><a href="videoDemo.html">Video Demo</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container-main">
+        <div class="sitereport-container">
+            <h2 class="report-title">Site Report</h2>
+            <div class="report-content">
+                <section class="report-section">
+                    <h2><span class="section-number">01</span> Introduction</h2>
+                    <p>
+                        This portfolio website was developed as part of my <span class="highlight">CSY1063 Web
+                            Development</span> assignment
+                        at the <span class="highlight">University of Northampton</span>. The main objective was to
+                        design and develop
+                        a <span class="highlight">fully responsive portfolio website</span> using only <span
+                            class="highlight">HTML and CSS.</span>
+                    </p>
+                </section>
+
+                <section class="report-section">
+                    <h2><span class="section-number">02</span> Planning & Design</h2>
+                    <p>
+                        Before starting development, I created a <span class="highlight">wireframe sketch</span> to
+                        structure the layout of the website.
+                        The color scheme originally consisted of <span class="highlight">#023047 (dark blue)</span> and
+                        <span class="highlight">#FEFAE0 (cream)</span>, providing a modern,
+                        professional appearance, but was later changed to a sleek black theme for better visual impact.
+                        The navigation is structured using <span class="highlight">flexbox</span>, and a mobile-friendly
+                        design was prioritized throughout the development process.
+                    </p>
+                </section>
+
+                <section class="report-section">
+                    <h2><span class="section-number">03</span> Development Process</h2>
+                    <p>
+                        The website consists of multiple pages, including <code>index.html</code>,
+                        <code>project.html</code>, <code>contact.html</code>,
+                        and <code>sitereport.html</code>. All CSS styles are stored in a single <code>style.css</code>
+                        file to maintain consistency.
+                    </p>
+                    <p>
+                        The <span class="highlight">navbar</span> uses <span class="highlight">flexbox</span> for
+                        desktop layout, while on mobile, a <span class="highlight">CSS-only menu toggle</span>
+                        is implemented. The <span class="highlight">projects page</span> features a <span
+                            class="highlight">CSS grid layout</span> to showcase placeholder projects.
+                        One challenge was making the navbar work <span class="highlight">without JavaScript</span>,
+                        which I solved using the <code>:checked</code>
+                        pseudo-class with a hidden input.
+                    </p>
+                </section>
+
+                <section class="report-section">
+                    <h2><span class="section-number">04</span> GitHub & Version Control</h2>
+                    <p>
+                        I used <span class="highlight">GitHub</span> for version control, committing updates frequently.
+                        This helped me track changes,
+                        revert mistakes, and maintain a <span class="highlight">clean development history</span>. My
+                        repository can be accessed at:
+                        <a href="#" class="report-link">GitHub Repository <i class="fas fa-external-link-alt"></i></a>.
+                    </p>
+                </section>
+
+                <section class="report-section">
+                    <h2><span class="section-number">05</span> Testing & Validation</h2>
+                    <p>
+                        The website was tested for <span class="highlight">cross-browser compatibility</span> on Chrome,
+                        Firefox, and Edge.
+                        I used <span class="highlight">Chrome Developer Tools</span> to check responsiveness across
+                        different screen sizes.
+                        Additionally, I validated the code using:
+                    </p>
+                    <ul class="validation-list">
+                        <li><i class="fas fa-check-circle"></i> <span class="highlight">W3C HTML Validator</span> –
+                            Ensured correct HTML structure.</li>
+                        <li><i class="fas fa-check-circle"></i> <span class="highlight">W3C CSS Validator</span> –
+                            Checked for syntax errors in CSS.</li>
+                        <li><i class="fas fa-check-circle"></i> <span class="highlight">Lighthouse Audit</span> –
+                            Verified performance, accessibility, and SEO.</li>
+                    </ul>
+
+                    <div class="validation-images">
+                        <div class="validation-image">
+                            <img src="assets/images/html-validation.png" alt="HTML Validation Screenshot">
+                            <span>HTML Validation</span>
+                        </div>
+                        <div class="validation-image">
+                            <img src="assets/images/css-validation.png" alt="CSS Validation Screenshot">
+                            <span>CSS Validation</span>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="report-section">
+                    <h2><span class="section-number">06</span> Conclusion</h2>
+                    <p>
+                        Through this project, I have strengthened my <span class="highlight">HTML and CSS skills</span>,
+                        particularly in
+                        <span class="highlight">responsive design</span>. I also learned the importance of <span
+                            class="highlight">semantic HTML</span>, <span class="highlight">flexbox</span>, <span
+                            class="highlight">CSS grid</span>,
+                        and <span class="highlight">GitHub for version control</span>. In the future, I would like to
+                        <span class="highlight">enhance interactivity</span> by
+                        integrating <span class="highlight">JavaScript</span> and improving <span
+                            class="highlight">accessibility features</span>.
+                    </p>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Made with <span class="heart">♥</span> by Nirajan</p>
+    </footer>
+</body>
+
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Report | Nirajan Mandal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">NIRAJAN</a>
+        </div>
+
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="menu-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z"></path>
+            </svg>
+        </label>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="sitereport.html" class="active">Site Report</a></li>
+                <li><a href="videoDemo.html">Video Demo</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container-main">
+        <div class="sitereport-container">
+            <h3 class="report-title">Site Report</h3>
+            <div class="report-content">
+
+                <section class="report-section">
+                    <h2><span class="section-number">01</span> Introduction</h2>
+                    <p>
+                        This portfolio website was developed for my <span class="highlight">CSY1063 Web
+                            Development</span>
+                        assignment at the <span class="highlight">University of Northampton</span>. The objective was to
+                        create a <span class="highlight">fully responsive portfolio website</span> using only
+                        <span class="highlight">HTML and CSS</span>. The site serves as a platform to display my
+                        projects,
+                        skills, and contact information.
+                    </p>
+                </section>
+
+                <section class="report-section">
+                    <h2><span class="section-number">02</span> Planning & Design</h2>
+                    <p>
+                        The website follows a <strong>dark mode design</strong>, as I personally prefer dark themes for
+                        better readability
+                        and a modern look. The <strong>primary accent color</strong> used throughout the site is
+                        <span style="color: var(--accent); font-weight: bold;">red (#e74c3c)</span>, which adds a bold
+                        and eye-catching
+                        contrast against the <span style="color: var(--background); font-weight: bold; background-color:aliceblue
+                        ;">dark gray</span>
+                        background.
+                        The text is styled in <span style="color: var(--text); font-weight: bold;">light
+                            gray/white</span> to ensure
+                        high readability and a clean, professional appearance.
+                    </p>
+
+
+                </section>
+
+                <section class="report-section">
+                    <h2><span class="section-number">03</span> Development Process</h2>
+                    <p>
+                        The website consists of multiple pages, including <code>index.html</code>,
+                        <code>project.html</code>,
+                        <code>contact.html</code>, and <code>sitereport.html</code>. All CSS is stored in
+                        <code>style.css</code>
+                        for consistency and maintainability.
+                    </p>
+                    <p>
+                        The <span class="highlight">navbar</span> was implemented using <span
+                            class="highlight">flexbox</span>
+                        for desktop layout, while a **CSS-only toggle menu** was used for mobile. The **Projects page**
+                        uses a <span class="highlight">CSS grid layout</span> to display project placeholders. One of
+                        the challenges I faced was making the **mobile menu work without JavaScript**, which was solved
+                        using the <code>:checked</code> pseudo-class.
+                    </p>
+                </section>
+
+                <section class="report-section">
+                    <h2><span class="section-number">04</span> GitHub & Version Control</h2>
+                    <p>
+                        I used <span class="highlight">Git</span> for version control and <span
+                            class="highlight">GitHub</span> for Central code base.
+                        This helped me track changes,
+                        revert mistakes, and maintain a <span class="highlight">clean development history</span>. My
+                        repository can be accessed at:
+                        <a href="https://github.com/nirajan0112/Nirajan_Portfolio" class="report-link">GitHub Repository
+                            <i class="fas fa-external-link-alt"></i></a>.
+                    </p>
+                </section>
+
+                <section class="report-section">
+                    <h2><span class="section-number">05</span> Testing & Validation</h2>
+                    <p>
+                        The website was tested for **cross-browser compatibility** on Chrome and Edge.
+                        The **Chrome Developer Tools** were used to check responsiveness across different screen sizes.
+                        The following validation tools were used:
+                    </p>
+                    <ul class="validation-list">
+                        <li><i class="fas fa-check-circle"></i> <span class="highlight">W3C HTML Validator</span> –
+                            Checked for valid HTML structure.</li>
+                        <li><i class="fas fa-check-circle"></i> <span class="highlight">W3C CSS Validator</span> –
+                            Ensured correct CSS syntax.</li>
+                    </ul>
+
+                    <div class="validation-images">
+                        <div class="validation-image">
+                            <img src="/images/html-validation.png" alt="HTML Validation Screenshot">
+                            <span>HTML Validation</span>
+                        </div>
+                        <div class="validation-image">
+                            <img src="/images/css-validation.png" alt="CSS Validation Screenshot">
+                            <span>CSS Validation</span>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="report-section">
+                    <h2><span class="section-number">06</span> Conclusion</h2>
+                    <p>
+                        This project helped me boost my **HTML and CSS skills**, particularly in **responsive
+                        design**.
+                        I also learned the importance of **semantic HTML, flexbox, CSS grid, Git and GitHub for version
+                        control**, also the importance of the central codebase.
+                        In the future, I plan to enhance this portfolio by integrating **JavaScript** to improve
+                        interactivity
+                        and functionality.
+                    </p>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Made with <span class="heart">♥</span> by Nirajan</p>
+    </footer>
+</body>
+
+</html>
