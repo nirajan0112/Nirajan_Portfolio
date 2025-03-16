@@ -36,6 +36,10 @@ Nirajan_Assignment/
 - Font Awesome Icons
 - Google Fonts (Inter)
 
+## ✨ UI Inspiration
+
+The design of this portfolio was inspired by [Mikael Persson's Portfolio](https://www.awwwards.com/sites/mikael-persson-portfolio), featured on Awwwards.
+
 ## 🎨 Design Features
 
 - Custom CSS animations
